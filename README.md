@@ -36,3 +36,7 @@ node_modules/rxjs/internal/observable/dom/AjaxObservable.d.ts:141:15 - error TS2
 
 platypus:my-project domi$
 ```
+
+
+For some reason `XMLHttpRequest` (I think in favor of `fetch`) was not taken over to the new type defintions when DOM related stuff was removed from types/react-native/globals.d.ts: https://github.com/DefinitelyTyped/DefinitelyTyped/pull/19840
+
